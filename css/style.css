@@ -23,6 +23,8 @@
     src: url(/fonts/blogger-sans/Blogger_Sans-Light_Italic.otf);
 }
 
+
+
 .clearfix {
     content: "";
     display: table;
@@ -40,7 +42,8 @@ body {
     margin: 0 auto;
 }
 
-div, li{
+div,
+li {
     box-sizing: border-box;
 }
 
@@ -113,7 +116,7 @@ li.active {
     text-align: center;
 }
 
-.text-main h1{
+.text-main h1 {
     font-family: BloggerBold;
     color: white;
     font-size: 48px;
@@ -137,6 +140,10 @@ li.active {
     text-align: center
 }
 
+
+
+
+
 .btn {
     display: inline-block;
     width: 190px;
@@ -148,7 +155,18 @@ li.active {
     font-size: 16px;
     color: white;
     text-decoration: none;
-} 
+    transition: box-shadow 200ms cubic-bezier(.2, 0, .7, 1);
+}
+
+.shine:hover {
+    box-shadow:
+        0 0 15px 10px rgba(138, 59, 88, 0.4),
+        0 0 1px 20px rgba(138, 59, 88, 0.1);
+}
+
+
+
+
 
 .buttons .active {
     background: #DA86E1;
@@ -161,7 +179,7 @@ li.active {
 }
 
 
-.about-us .text1 p{
+.about-us .text1 p {
     float: left;
     font-family: BloggerMedium;
     font-size: 40px;
@@ -169,7 +187,7 @@ li.active {
     margin: 170px 220px 0 0;
 }
 
-.about-us .text2 p{
+.about-us .text2 p {
     float: left;
     width: 430px;
     font-family: BloggerLight;
@@ -178,7 +196,7 @@ li.active {
     line-height: 33px;
     margin-top: 65px;
     margin-bottom: 35px;
-} 
+}
 
 .about-us .btn {
     width: 225px;
@@ -228,15 +246,15 @@ li.active {
     padding: 30px 130px 30px 210px;
     border-radius: 5px;
 }
-  
+
 .accordion span {
     float: right;
 }
 
 .clicked {
-      margin: 0;
+    margin: 0;
 }
-  
+
 .panel {
     position: relative;
     z-index: 1;
@@ -248,24 +266,24 @@ li.active {
 }
 
 .hats {
-    background: url("/img/hats.png") no-repeat center / cover; 
+    background: url("/img/hats.png") no-repeat center / cover;
 }
 
 .scarfs {
     background: url("/img/scarfs.png") no-repeat center / cover;
- }
+}
 
 .jumpers {
     background: url("/img/jumpers1.png") no-repeat center / cover;
 }
 
 .items {
-      display: block;
+    display: block;
 }
 
 .item {
-      float: left;
-      margin: 20px 26px 20px 0;
+    float: left;
+    margin: 20px 26px 20px 0;
 }
 
 .item:last-child {
@@ -278,8 +296,8 @@ li.active {
 }
 
 .item p {
-      font-family: Blogger;
-      font-size: 16px
+    font-family: Blogger;
+    font-size: 16px
 }
 
 .item_line {
@@ -289,19 +307,19 @@ li.active {
     margin: 10px auto;
 }
 
-.price p{
-      font-size: 21px;
-      float: left;
+.price p {
+    font-size: 21px;
+    float: left;
 }
 
 .price img {
-      float: right;
-      background: #D89FDD;
-      padding: 4px 6px;
-      border-radius: 5px;
+    float: right;
+    background: #D89FDD;
+    padding: 4px 6px;
+    border-radius: 5px;
 }
 
-.panel:last-child  {
+.panel:last-child {
     background: url("/img/jumpers.png") no-repeat center top / cover;
 }
 
@@ -315,7 +333,7 @@ li.active {
     left: -200px;
 }
 
-.deliver .text1 p{
+.deliver .text1 p {
     float: left;
     font-family: BloggerMedium;
     font-size: 40px;
@@ -323,7 +341,7 @@ li.active {
     margin: 245px 45px 0 0;
 }
 
-.deliver .text2 p{
+.deliver .text2 p {
     float: left;
     width: 430px;
     font-family: BloggerLight;
@@ -332,7 +350,7 @@ li.active {
     line-height: 33px;
     margin-top: 170px;
     margin-bottom: 170px;
-} 
+}
 
 .deliver img {
     float: right;
@@ -373,6 +391,9 @@ p.gal_text {
     margin-bottom: 60px;
     cursor: pointer;
 }
+
+#galery button:hover {
+    text-shadow: 0 0 1px grey;}
 
 #more_photos {
     display: none;
@@ -469,7 +490,7 @@ footer .container {
     padding: 60px 0 70px;
 }
 
-.footer_info > * {
+.footer_info>* {
     float: left;
     margin-right: 165px;
 }
@@ -486,12 +507,18 @@ footer .container {
     margin-bottom: 35px;
 }
 
-.footer_info li {
+.footer_info li,
+a {
     list-style: none;
     color: white;
     font-family: BloggerLight;
     font-size: 18px;
     margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.footer_info a:hover {
+    text-shadow: 0 0 10px white;
 }
 
 .info_contact i {
@@ -505,4 +532,3 @@ footer .container {
 .info_payment img:nth-child(2n) {
     margin-right: 0;
 }
-

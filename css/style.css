@@ -370,7 +370,10 @@ p.gal_text {
 #galery img {
     margin-right: 30px;
     margin-bottom: 30px;
-    box-shadow: 0 0 15px -1px rgb(82, 122, 255);
+}
+
+#galery img:hover {
+    box-shadow: 0 0 15px 1px rgb(82, 122, 255);
 }
 
 #galery img:nth-child(3n) {

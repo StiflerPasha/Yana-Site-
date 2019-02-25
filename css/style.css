@@ -40,7 +40,7 @@ body {
     margin: 0 auto;
 }
 
-div, li {
+div, li{
     box-sizing: border-box;
 }
 
@@ -162,7 +162,6 @@ li.active {
 
 
 .about-us .text1 p{
-    display: block;
     float: left;
     font-family: BloggerMedium;
     font-size: 40px;
@@ -171,7 +170,6 @@ li.active {
 }
 
 .about-us .text2 p{
-    display: block;
     float: left;
     width: 430px;
     font-family: BloggerLight;
@@ -183,7 +181,6 @@ li.active {
 } 
 
 .about-us .btn {
-    display: block;
     width: 225px;
     border-radius: 20px;
     text-align: center;
@@ -319,7 +316,6 @@ li.active {
 }
 
 .deliver .text1 p{
-    display: block;
     float: left;
     font-family: BloggerMedium;
     font-size: 40px;
@@ -328,7 +324,6 @@ li.active {
 }
 
 .deliver .text2 p{
-    display: block;
     float: left;
     width: 430px;
     font-family: BloggerLight;
@@ -347,7 +342,6 @@ li.active {
 }
 
 p.gal_text {
-    display: block;
     font-family: BloggerMedium;
     font-size: 40px;
     color: #000;
@@ -355,32 +349,160 @@ p.gal_text {
     margin-bottom: 40px;
 }
 
-.photos img {
+#galery img {
     margin-right: 30px;
     margin-bottom: 30px;
+    box-shadow: 0 0 15px -1px rgb(82, 122, 255);
 }
 
-.photos img:nth-child(3n) {
+#galery img:nth-child(3n) {
     float: right;
     margin-right: 0;
 }
 
-#galery a {
+#galery button {
     display: block;
     color: black;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
     font-family: BloggerLight;
     font-size: 18px;
-    text-align: center;
+    margin: 0 auto;
     margin-bottom: 60px;
+    cursor: pointer;
+}
+
+#more_photos {
+    display: none;
 }
 
 
-#contact {
-    height: 500px;
+#contact__us {
     background: #DACED7;
 }
 
-footer {
-    height: 320px;
-    background: #000;
+.contact_card {
+    float: left;
+    width: 300px;
+    background: #fff;
+    text-align: center;
+    margin: 75px 55px 75px 0;
+    font-family: Blogger;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px grey;
 }
+
+.contact_card p {
+    font-size: 20px;
+    margin: 30px 0 40px;
+}
+
+.contact_card input[name] {
+    display: inline-block;
+    border: none;
+    outline: none;
+    border-bottom: .5px solid black;
+    margin: auto;
+    width: 220px;
+    margin-bottom: 30px;
+    padding-bottom: 7px;
+    font-size: 16px;
+    color: #6B6B6B;
+}
+
+form input:last-child {
+    width: 140px;
+    margin: 20px 0 60px;
+    background: #DA86E1;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    padding: 11px 0;
+    color: white;
+    font-size: 16px;
+}
+
+form i {
+    margin-left: -25px;
+    color: #6B6B6B;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+.contact_info {
+    display: inline-block;
+    width: 420px;
+}
+
+.contact_info p:first-child {
+    font-family: BloggerMedium;
+    font-size: 40px;
+    margin-top: 105px;
+    margin-bottom: 50px;
+}
+
+.contact_info span {
+    display: block;
+    margin: 25px 0;
+}
+
+.contact_info p:last-child {
+    font-family: BloggerLight;
+    font-size: 18px;
+}
+
+footer {
+    background: black;
+}
+
+footer .container {
+    width: 780px;
+    margin: 0 auto;
+}
+
+.footer_info {
+    padding: 60px 0 70px;
+}
+
+.footer_info > * {
+    float: left;
+    margin-right: 165px;
+}
+
+.footer_info div:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.footer_info p {
+    font-family: BloggerMedium;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 35px;
+}
+
+.footer_info li {
+    list-style: none;
+    color: white;
+    font-family: BloggerLight;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.info_contact i {
+    margin-right: 20px;
+}
+
+.info_payment img {
+    margin-right: 15px;
+}
+
+.info_payment img:nth-child(2n) {
+    margin-right: 0;
+}
+

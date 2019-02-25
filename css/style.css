@@ -1,26 +1,26 @@
 @font-face {
     font-family: Blogger;
-    src: url(/fonts/blogger-sans/Blogger_Sans.otf);
+    src: url(../fonts/blogger-sans/Blogger_Sans.otf);
 }
 
 @font-face {
     font-family: BloggerBold;
-    src: url(/fonts/blogger-sans/Blogger_Sans-Bold.otf);
+    src: url(../fonts/blogger-sans/Blogger_Sans-Bold.otf);
 }
 
 @font-face {
     font-family: BloggerMedium;
-    src: url(/fonts/blogger-sans/Blogger_Sans-Medium.otf);
+    src: url(../fonts/blogger-sans/Blogger_Sans-Medium.otf);
 }
 
 @font-face {
     font-family: BloggerLight;
-    src: url(/fonts/blogger-sans/Blogger_Sans-Light.otf);
+    src: url(../fonts/blogger-sans/Blogger_Sans-Light.otf);
 }
 
 @font-face {
     font-family: BloggerLightItalic;
-    src: url(/fonts/blogger-sans/Blogger_Sans-Light_Italic.otf);
+    src: url(../fonts/blogger-sans/Blogger_Sans-Light_Italic.otf);
 }
 
 
@@ -175,7 +175,7 @@ li.active {
 
 
 #about__us {
-    background: url("/img/lines.png") repeat center / cover;
+    background: url("../img/lines.png") repeat center / cover;
 }
 
 
@@ -266,15 +266,15 @@ li.active {
 }
 
 .hats {
-    background: url("/img/hats.png") no-repeat center / cover;
+    background: url("../img/hats.png") no-repeat center / cover;
 }
 
 .scarfs {
-    background: url("/img/scarfs.png") no-repeat center / cover;
+    background: url("../img/scarfs.png") no-repeat center / cover;
 }
 
 .jumpers {
-    background: url("/img/jumpers1.png") no-repeat center / cover;
+    background: url("../img/jumpers1.png") no-repeat center / cover;
 }
 
 .items {
@@ -320,7 +320,7 @@ li.active {
 }
 
 .panel:last-child {
-    background: url("/img/jumpers.png") no-repeat center top / cover;
+    background: url("../img/jumpers.png") no-repeat center top / cover;
 }
 
 .deliver {

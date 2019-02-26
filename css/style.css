@@ -255,6 +255,10 @@ li.active {
     margin: 0;
 }
 
+.clicked i {
+    transform: rotate(90deg);
+}
+
 .panel {
     position: relative;
     z-index: 1;

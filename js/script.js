@@ -23,6 +23,7 @@ function btnMore() {
   var btn = document.getElementById("galery").getElementsByTagName("button");
 
   photos.style.display = "table";
+  photos.style.marginBottom = "65px";
   btn[0].style.display = "none";
 
 }

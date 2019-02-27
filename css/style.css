@@ -48,7 +48,7 @@ li {
 }
 
 header {
-    height: 708px;
+    padding-bottom: 240px;
     background: url("../img/abstract-black-and-white-cardigan-sweater-236028.png") no-repeat center / cover;
 }
 
@@ -137,7 +137,7 @@ li.active {
 }
 
 .buttons {
-    text-align: center
+    text-align: center;
 }
 
 
